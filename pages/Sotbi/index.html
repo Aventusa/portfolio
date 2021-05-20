@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" href="assets/img/favicons.png" type="image/png">
+  <title>Sotbi courier UI</title>
+<link href="assets/css/vendors.css" rel="stylesheet">
+<link href="assets/css/app.css" rel="stylesheet"></head>
+<body>
+
+<div class="main-container  main-wrapper">
+  <div class="content-container">
+    <div class="clr-col-lg-4 app">
+
+      <div class="app-info text-center">
+        <img src="assets/img/logo-dark.png" alt="Sotbi" class="brand">
+        <h3 class="info-title">Заказ курьера</h3>
+        <span class="info-content">Для заказа курьера необходимо заполнить форму</span>
+      </div>
+
+      <form class="clr-form">
+
+        <div class="clr-form-control">
+          <label for="first_address" class="clr-control-label">Откуда забрать?</label>
+          <div class="clr-control-container">
+            <div class="clr-input-wrapper">
+              <input type="text" id="first_address" title="Например: г.москва ул. Усачева, 35, стр.1" placeholder="Введите адрес" class="clr-input input_address">
+            </div> 
+          </div>
+        </div>
+
+        <div class="clr-form-control">
+          <label for="second_address" class="clr-control-label">Куда доставить?</label>
+          <div class="clr-control-container">
+            <div class="clr-input-wrapper">
+              <input type="text" id="second_address" title="Например: г.москва ул. Усачева, 35, стр.1" placeholder="Введите адрес" class="clr-input input_address">
+            </div> 
+          </div>
+        </div>
+
+        <div class="clr-form-control">
+          <label for="input_date" class="clr-control-label">Когда?</label>
+          <div class="clr-control-container">
+            <div class="clr-input-wrapper">
+              <input type="date" id="input_date" class="clr-input input_date">
+            </div> 
+          </div>
+        </div>
+
+        <div class="clr-form-control">
+          <label for="time_value_one" class="clr-control-label">Во сколько забрать?</label>
+          <div class="clr-control-container">
+            <div class="clr-input-wrapper">
+              <input type="text" id="time_value_one" title="Например: 14:30" placeholder="Время" class="clr-input time_input">
+              <input type="checkbox" class="time_checkbox"/>
+              <label class="time_label">Неважно</label>
+            </div> 
+          </div>
+        </div>
+
+        <div class="clr-form-control">
+          <label for="time_value_two" class="clr-control-label">Во сколько доставить?</label>
+          <div class="clr-control-container">
+            <div class="clr-input-wrapper">
+              <input type="text" id="time_value_two" title="Например: 16:00" placeholder="Время" class="clr-input time_input">
+              <input type="checkbox" class="time_checkbox"/>
+              <label class="time_label">Неважно</label>
+            </div> 
+          </div>
+        </div>
+
+        <div class="clr-form-control">
+          <label for="textarea" class="clr-control-label">Дополнительная информация</label>
+          <div class="clr-control-container">
+            <textarea placeholder="Комментарий к заказу" id="textarea" title="Например: номер телефона получателя" class="clr-textarea comment_textarea"></textarea>
+          </div>
+        </div>
+        
+        <div class="clr-form-control">
+          <button class="btn btn_order" title="Отправить заказ">Заказать</button>
+        </div>
+
+      </form>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript" src="/assets/js/vendors.js"></script><script type="text/javascript" src="/assets/js/app.js"></script></body>
+</html>

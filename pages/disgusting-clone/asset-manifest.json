@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/aventusa.github.io/static/css/main.df581772.chunk.css",
+    "main.js": "/aventusa.github.io/static/js/main.67241b8e.chunk.js",
+    "main.js.map": "/aventusa.github.io/static/js/main.67241b8e.chunk.js.map",
+    "runtime-main.js": "/aventusa.github.io/static/js/runtime-main.2ebdb423.js",
+    "runtime-main.js.map": "/aventusa.github.io/static/js/runtime-main.2ebdb423.js.map",
+    "static/js/2.3d7492aa.chunk.js": "/aventusa.github.io/static/js/2.3d7492aa.chunk.js",
+    "static/js/2.3d7492aa.chunk.js.map": "/aventusa.github.io/static/js/2.3d7492aa.chunk.js.map",
+    "index.html": "/aventusa.github.io/index.html",
+    "static/css/main.df581772.chunk.css.map": "/aventusa.github.io/static/css/main.df581772.chunk.css.map",
+    "static/js/2.3d7492aa.chunk.js.LICENSE.txt": "/aventusa.github.io/static/js/2.3d7492aa.chunk.js.LICENSE.txt",
+    "static/media/index.scss": "/aventusa.github.io/static/media/bgnew.146273db.jpg",
+    "static/media/bullet.37300697.png": "/aventusa.github.io/static/media/bullet.37300697.png",
+    "static/media/github-logo.e0df113a.svg": "/aventusa.github.io/static/media/github-logo.e0df113a.svg",
+    "static/media/logo.393d0b02.svg": "/aventusa.github.io/static/media/logo.393d0b02.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2ebdb423.js",
+    "static/js/2.3d7492aa.chunk.js",
+    "static/css/main.df581772.chunk.css",
+    "static/js/main.67241b8e.chunk.js"
+  ]
+}
